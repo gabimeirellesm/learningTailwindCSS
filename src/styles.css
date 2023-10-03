@@ -18,5 +18,5 @@
 }
 
 .icon{
-    @apply w-5 inline-block
+    @apply w-5 inline-block ml-2
 }
