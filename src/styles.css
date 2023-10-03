@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .card{
-    @apply bg-white rounded overflow-hidden shadow-md relative
+    @apply bg-white rounded overflow-hidden shadow-md relative hover:shadow-2xl
 }
 
 .badge{
@@ -15,4 +15,8 @@
 .btn{
     @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer
     tracking-wider
+}
+
+.icon{
+    @apply w-5 inline-block
 }
